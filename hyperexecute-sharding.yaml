@@ -41,3 +41,17 @@ framework:
     #  - name: shard2
     #    strategy: "skipClass"
     #    values: ["com.lambdatest.proverbial.BrowserTest"] 
+
+# Example:-
+
+    # shards:
+    #   mappings:
+    #   - name: shard1
+    #     strategy: "only-testing"
+    #     values: ["LambdaUiKitIOSUITests", "LambdaUiKitIOSUITestsLaunchTests"]
+    #  - name: shard2
+    #    strategy: "skip-testing"
+    #    values: ["LambdaUiKitIOSUITests/testverifyAppLaunch", "LambdaUiKitIOSUITests"]
+    #  - name: shard3
+    #    trategy: "only-testing"
+    #    values: ["LambdaUiKitIOSUITests/testverifyAppLaunch"]
